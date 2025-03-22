@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+    font-family:Arial, sans-serif;
+    text-align:center;
+    padding:50px;
+    background-color:#FFFFFF; /*Default color*/
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    margin:20px;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+/*Styling for color change button*/
+#colorButton{
+    background-color:#FF5733;
+    color:white;0
+}
+
+#colorButton:hover{
+    background-color:#C70039;
+}
+/*Styling for reset button*/
+#resetButton{
+    background-color:#3498db;
+    color:white;
+}
+
+#resetButton:hover{
+    background-color:#2980db;
+}
+/*Styling for color picker*/
+#colorPicker{
+    padding:10px;
+    font-size:18px;
+    margin-top:20px;
+}
